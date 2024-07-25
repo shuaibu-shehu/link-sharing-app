@@ -66,8 +66,7 @@ const CustomizeProfileDetails = () => {
           if (currentUserData?.links) setLinkAdd(currentUserData?.links);
           setIsLoading(false);
         } else {
-          // router.push("/signup");
-          // toast.error("You need to sign in first to use this web app");
+          // router.push("/profile");
         }
         console.log({ currentUserIdData });
       } catch (error) {
